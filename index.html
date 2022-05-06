@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cognitus Influence</title>
+</head>
+
+<body>
+    <header class="header-customer">
+        <h5 class="text-uppercase ttl-white">cis-a&d</h5>
+        <h1>WE APPRECIATE YOUR INTEREST IN COGNITUS INDUSTRY SOLUTION - A&D.</h1>
+    </header>
+    <main>
+        <section>
+            <article class="bg-ci">
+                <h2>customer influence</h2>
+                <h3>Thank you for your interest in our solutions!</h3>
+                <p>
+                    Please click below to provide feedback, request 
+                    additional features, or suggest improvements.
+                </p>
+                <!-- BTN TO SUBMIT START -->
+                <button id="submitFeedback">
+                    <img src="./img/btn.png" alt="">Submit Feedback
+                </button>
+                <!-- BTN TO SUBMIT END -->
+            </article>
+        </section>
+        <div class="bg-logos"></div>
+    </main>
+
+    <!-- SCRIPTS START -->
+    <script type="text/javascript"
+        src="https://cognitus.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-9zew5j/b/7/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=b73ed1cf"></script>
+    <script type="text/javascript">
+        window.ATL_JQ_PAGE_PROPS = {
+            "triggerFunction": function (showCollectorDialog) {
+                //Requires that jQuery is available!
+                jQuery("#submitFeedback").click(function (e) {
+                    e.preventDefault();
+                    showCollectorDialog();
+                });
+            }
+        };
+    </script>
+    <!-- SCRIPTS END -->
+</body>
+
+</html>
